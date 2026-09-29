@@ -10,5 +10,17 @@
 	<i>nisem se povezal</i>
 	{%endif%}
 
+	<form action="/" method="post">
+  		<label for="visinaID">Visina (cm):</label><br>
+  		<input type="text" id="fname" name="visina" value="{{podatki['visina']}}"><br>
+  		<label for="tezaID">Teža (kg):</label><br>
+  		<input type="text" id="lname" name="teza" value="{{podatki['teza']}}"><br><br>
+  		<input type="submit" value="Submit">
+	</form> 
+
+	{% if podatki ["itm"]%}
+	<i>Vai ITM je {{podatki ["itm"]}}</i>
+	{% endif %}
+
 </body>
 </html>
