@@ -2,8 +2,8 @@ from dataclasses import dataclass
 
 @dataclass(slots=True)
 class DnevnikObj:
-    ID:int = 0
-    DatumCas:str = ""
-    visina:float = 0.0
-    teza:float = 0.0
-    itm:float = 0.0
+    ID: int = 0
+    DatumCas: str = ""
+    Visina: float = 0.0
+    Teza: float = 0.0
+    Itm: float = 0.0
